@@ -1,8 +1,8 @@
 import { useState } from "react"
-import Footer from "./Components/Footer"
-import Header from "./Components/Header"
-import Cart from "./Components/Cart"
-import ProductList from "./Components/ProductList"
+import Footer from "./components/Footer"
+import Header from "./components/Header"
+import Cart from "./components/Cart"
+import ProductList from "./components/ProductList"
 
 function App() {
   const [viewCart, setViewCart] = useState<boolean>(false)
