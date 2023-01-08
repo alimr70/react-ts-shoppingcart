@@ -18,7 +18,7 @@ const REDUCER_ACTION_TYPE = {
   SUBMIT: "SUBMIT"
 }
 
-export type RducerActionType = typeof REDUCER_ACTION_TYPE
+export type ReducerActionType = typeof REDUCER_ACTION_TYPE
 
 export type ReducerAction = {
   type: string,
