@@ -35,7 +35,7 @@ const Cart = () => {
     </>
 
   const content = (
-    <main className="main--cart">
+    <main className="main main--cart">
       {pageContent}
     </main>
   )
